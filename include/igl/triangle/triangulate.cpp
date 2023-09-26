@@ -22,7 +22,7 @@
 #define REAL double
 #define VOID int
 
-#include <triangle.h>
+//#include <triangle.h>
 
 #undef ANSI_DECLARATORS
 #ifdef IGL_PREVIOUSLY_DEFINED_ANSI_DECLARATORS

@@ -36,6 +36,8 @@
 /tests/data
 /tutorial/data
 /install
+/bin
+/bin-int
 
 # Libigl specific
 LibiglOptions.cmake

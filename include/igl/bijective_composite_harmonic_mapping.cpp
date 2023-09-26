@@ -50,7 +50,7 @@ IGL_INLINE bool igl::bijective_composite_harmonic_mapping(
   assert(F.cols() == 3 && "F should contain triangles");
   int nsteps = min_steps;
   Eigen::Matrix<typename Derivedbc::Scalar, Eigen::Dynamic, Eigen::Dynamic> bc0 =
-    V(b.col(0),Eigen::all);
+    V(b.col(0), Eigen::all);
 
   // It's difficult to check for flips "robustly" in the sense that the input
   // mesh might not have positive/consistent sign to begin with.
